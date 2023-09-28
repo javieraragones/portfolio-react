@@ -3,7 +3,7 @@ import React from "react";
 const Frontend = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Desarrollo FrontEnd</h3>
+      <h3 className="skills__title">Desarrollo Front End</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -30,7 +30,7 @@ const Frontend = () => {
 
             <div>
               <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">Avanzado</span>
+              <span className="skills__level">Medio</span>
             </div>
           </div>
 

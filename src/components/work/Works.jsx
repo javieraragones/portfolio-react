@@ -4,7 +4,7 @@ import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
 const Works = () => {
-  const [item, setItem] = useState({ name: "todo" });
+  const [item, setItem] = useState({ name: "destacados" });
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState(0);
 
@@ -13,7 +13,9 @@ const Works = () => {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
+        return project.category.some((category) =>
+          category.toLowerCase().includes(item.name)
+        );
       });
       setProjects(newProjects);
     }
