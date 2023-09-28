@@ -19,14 +19,14 @@ const About = () => {
           <p className="about__description">
             Desarrollador Web apasionado por el diseño y el marketing digital.
             Con experiencia profesional como desarrollador Full Stack en PHP y
-            WordPress, he extendido mis habilidades al diseño gráfico, marketing
-            y gestión de redes sociales.
+            desarrollador WordPress, he extendido mis habilidades al diseño
+            gráfico, marketing y gestión de redes sociales.
           </p>
           <br />
           <a download="" href={CV} className="button button--flex">
             Descargar CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

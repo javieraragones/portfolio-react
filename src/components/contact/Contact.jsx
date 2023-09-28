@@ -19,8 +19,8 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contacto">
-      <h2 className="section__title">Ponte en Contacto</h2>
-      <span className="section__subtitle">Contactar</span>
+      <h2 className="section__title">Contactar</h2>
+      <span className="section__subtitle">Ponte en Contacto</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
@@ -116,7 +116,7 @@ const Contact = () => {
             <button className="button button--flex">
               Enviar Mensaje
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

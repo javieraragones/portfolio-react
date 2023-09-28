@@ -15,14 +15,14 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#portafolio" className="footer__link">
-              Proyectos
+            <a href="#experiencia" className="footer__link">
+              Experiencia
             </a>
           </li>
 
           <li>
-            <a href="#experiencia" className="footer__link">
-              Experiencia
+            <a href="#portfolio" className="footer__link">
+              Portfolio
             </a>
           </li>
         </ul>
@@ -33,7 +33,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i class="bx bxl-linkedin"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
 
           <a
@@ -41,7 +41,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i class="bx bxl-github"></i>
+            <i className="bx bxl-github"></i>
           </a>
 
           <a
@@ -49,7 +49,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i class="bx bxl-twitter"></i>
+            <i className="bx bxl-twitter"></i>
           </a>
         </div>
 

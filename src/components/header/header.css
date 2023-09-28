@@ -45,8 +45,7 @@
 /* Active link */
 .active-link,
 .nav__link:hover {
-  color: #9acef7;
-  /*color: var(--title-color-dark);*/
+  color: var(--title-color-dark);
 }
 
 /* Change background header*/

@@ -218,7 +218,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services_modal info">
-                    Plugins para SEO, Formularios, Traducciones y Más.
+                    Plugins de SEO, Formularios, Traducciones y Más.
                   </p>
                 </li>
               </ul>
